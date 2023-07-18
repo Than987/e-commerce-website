@@ -5,7 +5,7 @@ import Productspage from './components/Productspage';
 import { Frontend } from './components/Frontend';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Demo from './components/Demo';
+// import Demo from './components/Demo';
 const App = () => {
 
   return (
@@ -17,7 +17,7 @@ const App = () => {
           <Route path='/cartitems' element={<Frontend component ={<CartItems />}/>} />
         </Routes>
       </BrowserRouter>
-      <Demo />
+      {/* <Demo /> */}
     </div>
 
   );
